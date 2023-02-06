@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  ImageView.swift
 //  SwiftUI-Basic
 //
 //  Created by 이재영 on 2023/02/06.
@@ -7,15 +7,14 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ImageView: View {
     var body: some View {
-        //ImageView()
-        ButtonView()
+        Image(systemName: "sun.max.fill")
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct ImageView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ImageView()
     }
 }

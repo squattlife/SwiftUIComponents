@@ -15,6 +15,8 @@
 		AE1F7ED42990C1B400B1303B /* SwiftUI_BasicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1F7ED32990C1B400B1303B /* SwiftUI_BasicUITests.swift */; };
 		AE1F7ED62990C1B400B1303B /* SwiftUI_BasicUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1F7ED52990C1B400B1303B /* SwiftUI_BasicUITestsLaunchTests.swift */; };
 		AE1F7EE32990C1F300B1303B /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1F7EE22990C1F300B1303B /* TextView.swift */; };
+		AE1F7EE52990C31300B1303B /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1F7EE42990C31300B1303B /* ButtonView.swift */; };
+		AE1F7EE72990C34900B1303B /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1F7EE62990C34900B1303B /* ImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		AE1F7ED32990C1B400B1303B /* SwiftUI_BasicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_BasicUITests.swift; sourceTree = "<group>"; };
 		AE1F7ED52990C1B400B1303B /* SwiftUI_BasicUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_BasicUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		AE1F7EE22990C1F300B1303B /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		AE1F7EE42990C31300B1303B /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		AE1F7EE62990C34900B1303B /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 				AE1F7EB82990C1B300B1303B /* SwiftUI_BasicApp.swift */,
 				AE1F7EBA2990C1B300B1303B /* ContentView.swift */,
 				AE1F7EE22990C1F300B1303B /* TextView.swift */,
+				AE1F7EE42990C31300B1303B /* ButtonView.swift */,
+				AE1F7EE62990C34900B1303B /* ImageView.swift */,
 				AE1F7EBC2990C1B400B1303B /* Assets.xcassets */,
 				AE1F7EBE2990C1B400B1303B /* Preview Content */,
 			);
@@ -260,8 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE1F7EE72990C34900B1303B /* ImageView.swift in Sources */,
 				AE1F7EE32990C1F300B1303B /* TextView.swift in Sources */,
 				AE1F7EBB2990C1B300B1303B /* ContentView.swift in Sources */,
+				AE1F7EE52990C31300B1303B /* ButtonView.swift in Sources */,
 				AE1F7EB92990C1B300B1303B /* SwiftUI_BasicApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
