@@ -8,7 +8,6 @@ struct SymbolRollerView: View {
     
     @State var imageName = "moon"
     
-    
     var body: some View {
         VStack {
             Spacer()
@@ -29,7 +28,7 @@ struct SymbolRollerView: View {
                 imageName = symbols.randomElement()!
             } label: {
                 
-                // 버튼을 좌우로 나누고, 우측을 또 상하로 나눠야 함
+                // 버튼을 좌우로 나누고, 나눈 구간의 우측을 상하로 나눠야 함
                 HStack {
                     Image(systemName: "arrow.3.trianglepath")
                         
