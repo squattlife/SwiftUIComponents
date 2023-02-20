@@ -21,6 +21,7 @@ struct ContentView: View {
                     
                 } icon: {
                     Image(systemName: "person.fill")
+                        .foregroundColor(.gray)
                 }
                 TextField("enter ID", text: $userID)
             }
@@ -30,6 +31,7 @@ struct ContentView: View {
 
                 } icon: {
                     Image(systemName: "lock.fill")
+                        .foregroundColor(.gray)
                 }
                 if hasShownPassword {
                     TextField("enter Password", text: $userPW)
@@ -37,9 +39,16 @@ struct ContentView: View {
                     SecureField("enter Password", text: $userPW)
                 }
                 
-                Toggle(isOn: $hasShownPassword) {
-
+                Button {
+                    hasShownPassword.toggle()
+                } label: {
+                    Text("show PW")
                 }
+
+//                Toggle(isOn: $hasShownPassword) {
+//
+//                }
+                
             }
 
             Button {
