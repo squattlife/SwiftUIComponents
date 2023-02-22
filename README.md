@@ -1,4 +1,4 @@
-# SwiftUIComponents
+
 ## 유용한 사이트, 문서
 
 - https://developer.apple.com/tutorials/swiftui/building-lists-and-navigation
@@ -7,6 +7,36 @@
 - https://developer.apple.com/documentation/swiftui/building_a_document-based_app_with_swiftui
 
 <br>
+
+## 📍 View
+### `Text`
+Text("Hello")를 통해 Text를 생성할 수 있으며, 폰트, 색상, 그림자, 왼쪽 상단과 오른쪽 사이의 간격 등과 같은 여러 속성을 텍스트에 추가할 수도 있습니다.
+
+```swift
+Text("Hello World")
+    .foregroundColor(.orange)
+    .bold()
+    .font(.system(.largeTitle))
+    .fontWeight(.medium)
+    .italic()
+    .shadow(color: .black, radius: 1, x: 0, y: 2)
+```
+
+<br>
+
+### `TextField`
+주로 텍스트 입력을 받아오기 위한 컴포넌트이다. **TextField**의 인자 값으로 **@State**으로 선언한 변수를 넣으면 변수에 텍스트가 입력된다.
+
+
+
+
+
+
+
+
+
+
+
 
 
 
