@@ -27,7 +27,7 @@ struct ContentView: View {
                 
                 Section {
                     NavigationLink {
-                        Text("iPhone 탐색하기 상세페이지")
+                        InformationDetail()
                     } label: {
                         Image(systemName: "hand.draw")
                             .resizable()
